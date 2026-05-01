@@ -4,18 +4,14 @@
 int main()
 {
 
-    int a, b = 80;
-    std::cout << "Masukkan angka pertama: ";
-    std::cin >> a;
-
-    if (a > b)
+    int n = 3;
+    if (n > 5)
     {
-
-        std::cout << "Anda lulus" << std::endl;
+        std::cout << "Hello Bro" << "\n";
     }
-    else
+    else if (n > 8)
     {
-        std::cout << "Anda tidak lulus" << std::endl;
+        std::cout << "Hello Master" << "\n";
     }
 
     return 0;

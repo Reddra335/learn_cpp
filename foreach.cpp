@@ -1,13 +1,16 @@
 #include <iostream>
 #include <string>
-using namespace std;
+
+
+std::string names[]={"Rendi","Ucin","Damara"};
+
 int main(){
 
-string names[2]={"Rendi","Ucin"};
-    for(string num : names){
-        cout<<num;
-    }
+for(std::string name: names){
+std::cout<<name+"\n";
 
+
+}
 
     return 0;
 }

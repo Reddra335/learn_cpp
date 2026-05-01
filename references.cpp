@@ -1,10 +1,11 @@
 #include <iostream>
 
 int main(){
+int umur =20;
 
-std::string nama ="Rendi";
-std::string &uji=nama;
-std::cout<<uji<<std::endl;
+int *umur1 =&umur;
+*umur1 =30;
+std::cout<< umur<<"\n";
 
     return 0;
 }

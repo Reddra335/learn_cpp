@@ -11,7 +11,7 @@ int main()
 
 enum level uji =angka;
 
-std::cout<<uji,"\n";
+std::cout<<uji<<"\n";
 
 
     return 0;

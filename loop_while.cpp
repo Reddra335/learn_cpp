@@ -16,14 +16,13 @@ int main()
     // }
     // cout<<reverse;
 
-    int i = 0;
+    int i =0;
 
-    while (i < 10)
-    {
-        std::cout << i << std::endl;
-
+    while(i<10){
+        std::cout<<i<<std::endl;
         i++;
     }
+
 
     return 0;
 }

@@ -1,23 +1,23 @@
 #include <iostream>
 #include <string>
-int main(){
 
-std::string nama;
-int umur;
-float uang;
-char kelompok;
+int main()
+{
 
-nama ="Rendi Damara";
-umur =19;
-uang =100.000;
-kelompok='H';
+    std::string name;
+    int umur;
+    float nilai;
+    bool huruf;
 
-std::cout<<nama<<std::endl;
-std::cout<<umur<<std::endl;
-std::cout<<uang<<std::endl;
-std::cout<<kelompok<<std::endl;
+    name = "Rendi Damara";
+    umur = 19;
+    nilai = 7.8;
+    huruf = 'B';
 
-
+    std::cout<<name<<std::endl;
+    std::cout<<umur<<std::endl;
+    std::cout<<nilai<<std::endl;
+    std::cout<<huruf<<std::endl;
 
     return 0;
 }

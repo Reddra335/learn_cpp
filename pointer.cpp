@@ -1,15 +1,11 @@
 #include <iostream>
 
+
 int main(){
-int uji =100;
-int* hasil =&uji;
 
-std::cout<<*hasil<<std::endl;
-
-
-*hasil =225;
-
-std::cout<<*hasil<<std::endl;
-std::cout<<uji<<std::endl;
+int umur1=20;
+int* umur = &umur1;
+*umur =30;
+std::cout<<*umur<<"\n";
     return 0;
 }

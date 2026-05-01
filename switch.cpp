@@ -1,37 +1,22 @@
 #include <iostream>
 
-int main(){
+int main()
+{
 
+    int i = 1;
 
-int hari;
-
-
-
-while(hari) {
-
-
-    if (hari == 0){
-        break;
-    }
-    std::cout<<"masukkan hari ke: ";
-std::cin>>hari;
-    switch(hari){
+    switch (i)
+    {
     case 1:
-    std::cout<<"masuk sekolah cuy"<<std::endl;
-    break;
+        std::cout << "Hari Bung";
+        break;
     case 2:
-    std::cout<<"masuk sekolah cuy"<<std::endl;
-    break;
+        std::cout << "Hari Bro";
+        break;
+
     default:
-    std::cout<<"Invalid"<<std::endl;
-}
-}
-
-
-
-
-
-
+        std::cout << "Invalid";
+    }
 
     return 0;
 }

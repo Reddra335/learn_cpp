@@ -1,12 +1,15 @@
 #include <iostream>
-using namespace std;
-
 int main(){
-    
-int sum;
-cout<<"Masukkan angka : ";
-cin>>sum;
-cout<<"Angkanya adalah : "<<sum;
+
+
+int n;
+
+
+
+std::cout<<"Masukkan angka : ";
+std::cin>>n;
+std::cout<<n<<std::endl;
+
 
     return 0;
 }
