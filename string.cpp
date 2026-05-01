@@ -4,28 +4,13 @@
 int main()
 {
 
-    std::string name = "Rendi";
+    std::string name = "Rendi Damara";
 
-std::cout<<name[0]<<std::endl;
+    std::cout << name.length() << "\n";
+    std::cout << name.size() << "\n";
 
-std::cout<<name.size()<<std::endl;
+    std::getline(std::cin, name);
 
-std::cout<<name[name.length()-1]<<std::endl;
-
-
-std::cout<<"\"haiii\""<<std::endl;
-std::cout<<"\'haiii\'"<<std::endl;
-std::cout<<name+" "<<std::endl;
-std::cout<<name+"\n";
-std::cout<<name+"\t"+"uhuy"<<std::endl;
-
-
-std::cout<<"Masukkan nama : ";
-std::getline(std::cin,name);
-
-std::cout<<"nama kamu adalah "+name;
-
-
-
+    std::cout << name << "\n";
     return 0;
 }
